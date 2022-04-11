@@ -1,60 +1,60 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.container
-{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(52, 57, 90, 0.6), rgba(52, 57, 90, 0.6)), 
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(52, 57, 90, 0.6),
+      rgba(52, 57, 90, 0.6)
+    ),
     url(images/84291.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-position: center;
+  background-size: cover;
 }
 
-.search-bar
-{
-    width: 100%;
-    max-width: 500px;
-    background-color: rgba(255, 255, 255, 0.4);
-    padding: 8px 15px;
-    display: flex;
-    align-items: center;
-    border-radius: 50px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+.search-bar {
+  background-color: rgba(255, 255, 255, 0.4);
+  /*padding: 8px 15px;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  border-radius: 50px;
 }
 
-::placeholder
-{
-    color: rgb(255, 255, 200, 0.6);
+::placeholder {
+  color: rgb(255, 255, 200, 0.6);
 }
 
-.search-bar input
-{
+.search-bar input {
     background-color: transparent;
     border: 0;
     font-size: 22px;
     padding: 10px 20px;
-    flex: 1;
 }
 
-.search-bar button img
-{
+.search-bar button img {
     width: 35px;
 }
 
-.search-bar button 
-{
+.search-bar button {
     width: 55px;
     height: 55px;
     border-radius: 50px;
     border: 0;
     background-color: rgb(255, 255, 255, 0.5);
     cursor: pointer;
+    margin: 5px;
 }
