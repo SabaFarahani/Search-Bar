@@ -1,1 +1,1 @@
-A simple web search page
+A simple search web page
